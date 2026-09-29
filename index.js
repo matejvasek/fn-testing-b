@@ -20,7 +20,7 @@ const handle = async (context, body) => {
   // YOUR CODE HERE
   context.log.info("query", context.query);
   context.log.info("body", body);
-
+  // comment
   return {
     body: "OK",
     headers: {
