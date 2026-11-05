@@ -22,7 +22,7 @@ const handle = async (context, body) => {
   context.log.info("body", body);
 
   return {
-    body: "OK",
+    body: "NOK",
     headers: {
       'content-type': 'text/plain'
     }
